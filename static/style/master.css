@@ -1,0 +1,159 @@
+/*Overriding Semantic style attributes*/
+
+
+body { background: rgba(30, 32, 34, 1); }
+
+.ui.vertical.menu .menu .item {background-color:rgba(169, 97, 21, .8);line-height:16px;font-size:16px;text-decoration:underline;font-weight:bolder;border-radius:0;rgba(30, 32, 34, 1);}
+.ui.compact.menu { border:0px black;border-radius:0;}
+.icon .camera {background: url(/assets/img/camera.svg) no-repeat top left;background-size:contain; color:#fff;}
+.ui.segment.odd { background-color:rgba(30, 32, 34, .85);margin-top:0px;}
+.ui.menu .item:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 2px;
+    background: rgba(34,36,38,.1);
+}
+.ui.vertical.menu {background-color:rgba(129, 50, 1, .8);border-radius:0;margin:0px;}
+.ui.segment.grid { margin:0px;background:#fff;border-radius:0;border:0px solid black;}
+.header-div {
+    height: 13.3rem;
+    -webkit-box-shadow: 0 15px 16px -6px #000;
+    -moz-box-shadow: 0 15px 16px -6px #000;
+    box-shadow: 0 15px 16px -6px #000;
+}
+.ui.fluid.image
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.ui.fluid.image:before, .image:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.ui.fluid.image:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+    -moz-transform:skew(8deg) rotate(3deg);
+    -ms-transform:skew(8deg) rotate(3deg);
+    -o-transform:skew(8deg) rotate(3deg);
+    transform:skew(8deg) rotate(3deg);
+}
+.ui.header.horizontal{ color:rgba(169, 97, 21, .8);}
+@media only screen and (max-width: 767px) {
+    .ui.container {
+        width: auto !important;
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
+
+    .ui.grid.container {
+        width: auto !important;
+    }
+
+    .ui.relaxed.grid.container {
+        width: auto !important;
+    }
+
+    .ui.very.relaxed.grid.container {
+        width: auto !important;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ui.container {
+        width: 75%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .ui.grid.container {
+        width: calc( 75%  +  2rem ) !important;
+    }
+
+    .ui.relaxed.grid.container {
+        width: calc( 75%  +  3rem ) !important;
+    }
+
+    .ui.very.relaxed.grid.container {
+        width: calc( 75%  +  5rem ) !important;
+    }
+}
+
+/* Small Monitor */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .ui.container {
+        width: 75%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .ui.grid.container {
+        width: calc( 75% +  2rem ) !important;
+    }
+
+    .ui.relaxed.grid.container {
+        width: calc( 75%  +  3rem ) !important;
+    }
+
+    .ui.very.relaxed.grid.container {
+        width: calc( 75%  +  5rem ) !important;
+    }
+}
+
+/* Large Monitor */
+
+@media only screen and (min-width: 1200px) {
+    .ui.container {
+        width: 75%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .ui.grid.container {
+        width: calc( 75%  +  2rem ) !important;
+    }
+
+    .ui.relaxed.grid.container {
+        width: calc( 75%  +  3rem ) !important;
+    }
+
+    .ui.very.relaxed.grid.container {
+        width: calc( 75%  +  5rem ) !important;
+    }
+}
+
+.column .five .wide { width:33.33%; }
+
+.crop {
+    width: 200px;
+    overflow: hidden;
+}
+.crop img {
+    height: auto;
+    width: 100%;
+}
+
+.menu {
+    background:#343638;
+}
