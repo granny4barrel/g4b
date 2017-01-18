@@ -17,6 +17,10 @@ $(document).ready(function() {
         percentPosition: true
     });
 
+    $('masonry-grid').imagesLoaded().progress( function() {
+        $('masonry-grid').masonry('layout');
+    });
+
     $('.masonry-item').dimmer({
         on: 'hover',
     })
@@ -35,7 +39,7 @@ $(document).ready(function() {
                 });
             },
         cssSelectorAncestor:'#jp_container_1',
-        
+
         swfPath:'static/jquery.jplayer.swf',
         supplied:'mp3',
         wmode:'window',
