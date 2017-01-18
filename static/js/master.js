@@ -17,8 +17,8 @@ $(document).ready(function() {
         percentPosition: true
     });
 
-    $('masonry-grid').imagesLoaded().progress( function() {
-        $('masonry-grid').masonry('layout');
+    $('.masonry-grid').imagesLoaded().progress( function() {
+        $('.masonry-grid').masonry('layout');
     });
 
     $('.masonry-item').dimmer({
