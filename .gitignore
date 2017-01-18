@@ -1,6 +1,6 @@
 .idea
-semantic/src
-semantic/themes
-semantic/tasks
+semantic/src/
+semantic/themes/
+semantic/tasks/
 semantic/gulpfile.js
 semantic.json
