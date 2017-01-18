@@ -18,6 +18,7 @@
         <script src="semantic/dist/semantic.min.js"></script>
         <link rel="stylesheet" type="text/css" href="static/style/jplayer.blue.monday.min.css">
         <link rel="stylesheet" type="text/css" href="static/style/master.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
         <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
         <script src="static/js/masonry.pkgd.min.js"></script>
         <script src="static/js/jquery.jplayer.js"></script>
@@ -35,20 +36,17 @@
     </head>
 
     <body>
-
-            <div class="ui segment odd">
-                <div class="ui container">
-                    <img class="ui fluid image" src="assets/img/main.jpg">
-                </div>
+        <div class="ui segment odd inset">
+            <div class="ui container" style="padding-top:2rem;">
+                <img class="ui fluid image" src="assets/img/main.jpg">
             </div>
-
+        </div>
         <section id="listen">
-
-            <div class="ui segment">
-                <h2 class="ui horizontal divider header">
+            <div class="ui segment even">
+                <h1 class="ui horizontal divider header">
                     Listen
                     <i class="icon camera"></i>
-                </h2>
+                </h1>
                 <div class="ui container">
                     <div class="ui twelve column centered grid">
                         <div class="center aligned three column row">
@@ -88,149 +86,141 @@
                                     <span>Update Required</span>
                                     To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
                                 </div>
-
-
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="gallery">
-        <div class="ui segment odd">
-            <h2 class="ui horizontal divider header">
-                Gallery
-                <i class="icon camera"></i>
-            </h2>
-            <div class="ui container">
-
-                    <div class="masonry-grid">
-                        <div class="masonry-sizer"></div>
-                        <div class="masonry-item">
-                            <div class="ui dimmer" id="1">
-                                <div class="content">
-                                    <div class="center">
-                                        <h2 class="ui inverted header">View Full Size</h2>
+            <div class="ui segment odd bot">
+                <h1 class="ui horizontal divider header">
+                    Gallery
+                    <i class="icon camera"></i>
+                </h1>
+                <div class="ui container" style="padding-top:5rem;">
+                        <div class="masonry-grid">
+                            <div class="masonry-sizer"></div>
+                            <div class="masonry-item">
+                                <div class="ui dimmer" id="1">
+                                    <div class="content">
+                                        <div class="center">
+                                            <h2 class="ui inverted header">View Full Size</h2>
+                                        </div>
                                     </div>
                                 </div>
+                                <img src="assets/img/gallery_1.PNG">
                             </div>
-                            <img src="assets/img/gallery_1.PNG">
-                        </div>
-
-                        <div class="masonry-item">
-                            <div class="ui dimmer" id="2">
-                                <div class="content">
-                                    <div class="center">
-                                        <h2 class="ui inverted header">View Full Size</h2>
+                            <div class="masonry-item">
+                                <div class="ui dimmer" id="2">
+                                    <div class="content">
+                                        <div class="center">
+                                            <h2 class="ui inverted header">View Full Size</h2>
+                                        </div>
                                     </div>
                                 </div>
+                                <img src="assets/img/gallery_2.PNG">
                             </div>
-                            <img src="assets/img/gallery_2.PNG">
-                        </div>
-                        <div class="masonry-item">
-                            <div class="ui dimmer" id="3">
-                                <div class="content">
-                                    <div class="center">
-                                        <h2 class="ui inverted header">View Full Size</h2>
+                            <div class="masonry-item">
+                                <div class="ui dimmer" id="3">
+                                    <div class="content">
+                                        <div class="center">
+                                            <h2 class="ui inverted header">View Full Size</h2>
+                                        </div>
                                     </div>
                                 </div>
+                                <img src="assets/img/gallery_3.PNG" >
                             </div>
-                            <img src="assets/img/gallery_3.PNG" >
-                        </div>
-                        <div class="masonry-item">
-                            <div class="ui dimmer" id="4">
-                                <div class="content">
-                                    <div class="center">
-                                        <h2 class="ui inverted header">View Full Size</h2>
+                            <div class="masonry-item">
+                                <div class="ui dimmer" id="4">
+                                    <div class="content">
+                                        <div class="center">
+                                            <h2 class="ui inverted header">View Full Size</h2>
+                                        </div>
                                     </div>
                                 </div>
+                                <img src="assets/img/gallery_4.PNG" >
                             </div>
-                            <img src="assets/img/gallery_4.PNG" >
-                        </div>
 
-                        <div class="masonry-item">
-                            <div class="ui dimmer" id="5">
-                                <div class="content">
-                                    <div class="center">
-                                        <h2 class="ui inverted header">View Full Size</h2>
+                            <div class="masonry-item">
+                                <div class="ui dimmer" id="5">
+                                    <div class="content">
+                                        <div class="center">
+                                            <h2 class="ui inverted header">View Full Size</h2>
+                                        </div>
                                     </div>
                                 </div>
+                                <img src="assets/img/gallery_5.PNG">
                             </div>
-                            <img src="assets/img/gallery_5.PNG">
-                        </div>
-                        <div class="masonry-item">
-                            <div class="ui dimmer" id="6">
-                                <div class="content">
-                                    <div class="center">
-                                        <h2 class="ui inverted header">View Full Size</h2>
+                            <div class="masonry-item">
+                                <div class="ui dimmer" id="6">
+                                    <div class="content">
+                                        <div class="center">
+                                            <h2 class="ui inverted header">View Full Size</h2>
+                                        </div>
                                     </div>
                                 </div>
+                                <img src="assets/img/gallery_6.PNG">
                             </div>
-                            <img src="assets/img/gallery_6.PNG">
                         </div>
+                    <div class="ui modal" ID="modal1">
+                        <div class="image content">
+                            <div class="ui container image fluid">
+                                <img src="assets/img/gallery_1.PNG" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui modal" ID="modal2">
+                        <div class="image content">
+                            <div class="ui container image fluid">
+                                <img src="assets/img/gallery_2.PNG" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui modal " ID="modal3">
+                        <div class="image content">
+                            <div class="ui container image fluid">
+                                <img src="assets/img/gallery_3.PNG" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui modal" ID="modal4">
+                        <div class="image content">
+                            <div class="ui container image fluid">
+                                <img src="assets/img/gallery_4.PNG" >
+                            </div>
+                        </div>
+                    </div>
 
-                    </div>
-                <div class="ui modal" ID="modal1">
-                    <div class="image content">
-                        <div class="ui container image fluid">
-                            <img src="assets/img/gallery_1.PNG" >
+                    <div class="ui modal" ID="modal5">
+                        <div class="image content">
+                            <div class="ui container image fluid">
+                                <img src="assets/img/gallery_5.PNG" >
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="ui modal" ID="modal2">
-                    <div class="image content">
-                        <div class="ui container image fluid">
-                            <img src="assets/img/gallery_2.PNG" >
-                        </div>
-                    </div>
-                </div>
-                <div class="ui modal" ID="modal3">
-                    <div class="image content">
-                        <div class="ui container image fluid">
-                            <img src="assets/img/gallery_3.PNG" >
-                        </div>
-                    </div>
-                </div>
-                <div class="ui modal" ID="modal4">
-                    <div class="image content">
-                        <div class="ui container image fluid">
-                            <img src="assets/img/gallery_4.PNG" >
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ui modal" ID="modal5">
-                    <div class="image content">
-                        <div class="ui container image fluid">
-                            <img src="assets/img/gallery_5.PNG" >
-                        </div>
-                    </div>
-                </div>
 
 
-                <div class="ui small modal" ID="modal6">
-                    <div class="image content">
-                        <div class="ui container image fluid">
-                            <img src="assets/img/gallery_6.PNG" >
+                    <div class="ui small modal" ID="modal6">
+                        <div class="image content">
+                            <div class="ui container image fluid">
+                                <img src="assets/img/gallery_6.PNG" >
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
-
-
         </section>
     </body>
     <footer>
         <div class="ui segment footer">
-            Hey
+            <div class="ui container">
+                <div class="ui twelve column centered grid">
+                    <div class="center aligned three column row">
+                        <h5 class="foot">All Content Copyright 2017 &#169; G4B Productions</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-
-
-
-
-
 </html>
