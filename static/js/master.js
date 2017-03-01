@@ -50,4 +50,48 @@ $(document).ready(function() {
         toggleDuration:true,
 
     });
+
+    $('#jquery_jplayer2').jPlayer({
+        ready:
+            function() {
+                $(this).jPlayer('setMedia', {
+                    title: 'Nitro Sexy - 30 seconds',
+                    mp3: 'assets/audio/Nitro Sexy EPK _30 Snip Mix_01.mp3'
+                });
+            },
+        cssSelectorAncestor:'#jp_container_2',
+
+        swfPath:'static/jquery.jplayer.swf',
+        supplied:'mp3',
+        wmode:'window',
+        useStateClassSkin:true,
+        autoBlur: true,
+        smoothPlayBar: true,
+        keyEnable: true,
+        remainingDuration: true,
+        toggleDuration:true,
+
+    });
+
+    $('#jquery_jplayer3').jPlayer({
+        ready:
+            function() {
+                $(this).jPlayer('setMedia', {
+                    title: 'Freak Flag - 30 seconds',
+                    mp3: 'assets/audio/Freak Flag EPK 30 Snip Mix _01.mp3'
+                });
+            },
+        cssSelectorAncestor:'#jp_container_3',
+
+        swfPath:'static/jquery.jplayer.swf',
+        supplied:'mp3',
+        wmode:'window',
+        useStateClassSkin:true,
+        autoBlur: true,
+        smoothPlayBar: true,
+        keyEnable: true,
+        remainingDuration: true,
+        toggleDuration:true,
+
+    });
 });
