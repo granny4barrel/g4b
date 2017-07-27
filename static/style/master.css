@@ -197,14 +197,3 @@ h5.foot {
     max-width:100%;
 
 }
-h1.quote {
-    display: block;
-    text-align: center;
-    background-color: #D8BF7D;
-    padding:15px 25px;
-    font-size: 28px;
-}
-h1.quote b {
-    font-family: 'Merriweather', serif;
-    color: #C5283F;
-}
