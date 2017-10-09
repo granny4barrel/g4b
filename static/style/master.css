@@ -58,10 +58,10 @@ h5.foot {
 .ui.vertical.menu {background-color:rgba(89,88,84,1);border-radius:0;margin:0px;}
 .ui.segment.grid { margin:0px;background:#fff;border-radius:0;border:0px solid black;}
 .header-div {
-    height: 13.3rem;
     -webkit-box-shadow: 0 15px 16px -6px rgba(34,36,38,.1);
     -moz-box-shadow: 0 15px 16px -6px rgba(34,36,38,.1);
     box-shadow: 0 15px 16px -6px rgba(34,36,38,.1);
+    background: rgba(34,36,38,.1);
 
 }
 .ui.segment.odd.bot {
@@ -214,4 +214,13 @@ iframe {
   width: 100%;
   height: 100%;
   left: 0; top: 0;
+}
+.bio p {
+    color: #ffffff;
+    font-size: 18px;
+}
+.bio p {
+    display: block !important;
+    text-align: left !important;
+    float: none !important;
 }
