@@ -10,7 +10,7 @@ body { background: rgba(30, 32, 34, 1);font-family: 'Merriweather', serif; }
 .item-hover { background-color:  #000;}
 .item { font-family: 'Merriweather', serif;font-size:20px;}
 .ui.vertical.menu .menu .item {background-color:rgba(89,88,84, 1);line-height:16px;text-decoration:underline;font-weight:700;font-size:1.5rem;border-radius:0;color:rgba(225, 223, 221, 1);}
-.ui.compact.menu { border:0px black;border-radius:0;}
+.ui.compact.menu { border:0px black;border-radius:0;overflow:scroll !important;}
 .icon .camera {background: url(/assets/img/camera.svg) no-repeat top left;background-size:contain; color:#fff;}
 .ui.segment.odd { background-color:rgba(30, 32, 34, .85);margin-top:0px;padding-bottom:8rem;padding-top:2rem;}
 .ui.menu .item:before {
