@@ -34,7 +34,7 @@ $(document).ready(function() {
             function() {
                 $(this).jPlayer('setMedia', {
                     title: 'She Likes Guns',
-                    mp3: 'assets/audio/she-likes-guns.mp3'
+                    mp3: 'assets/audio/she-likes-guns-rcl.mp3'
                 });
             },
         cssSelectorAncestor:'#jp_container_1',
