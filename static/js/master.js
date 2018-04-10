@@ -33,8 +33,8 @@ $(document).ready(function() {
         ready:
             function() {
                 $(this).jPlayer('setMedia', {
-                    title: 'Freak Flag “censored”',
-                    mp3: 'assets/audio/freak-flag-clean-version.mp3'
+                    title: 'She Likes Guns',
+                    mp3: 'assets/audio/she-likes-guns.mp3'
                 });
             },
         cssSelectorAncestor:'#jp_container_1',
@@ -55,8 +55,8 @@ $(document).ready(function() {
         ready:
             function() {
                 $(this).jPlayer('setMedia', {
-                    title: 'Freak Flag “censored” (no fiddle)',
-                    mp3: 'assets/audio/freak-flag-alt-clean-version-no-fiddle.mp3'
+                    title: 'Freak Flag',
+                    mp3: 'assets/audio/freak-flag-rcl.mp3'
                 });
             },
         cssSelectorAncestor:'#jp_container_2',
