@@ -224,3 +224,30 @@ iframe {
     text-align: left !important;
     float: none !important;
 }
+ul.stormy {
+    padding:20px 0 0 0 !important;
+    display: block;
+    border:1px solid #9f5615;
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+}
+ul.stormy li {
+    list-style-type: none;
+    padding:0 20px 20px 20px;
+    margin:0 0 0 0 !important;
+
+}
+ul.stormy li a {
+    display: block;
+    text-align: center;
+    padding:15px 25px;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: normal;
+    background-color: rgba(255,255,255,.15);
+    border:1px dashed rgba(255,255,255,.25);
+}
+ul.stormy li a:hover {
+    background-color: rgba(0,0,0,.25);
+}
